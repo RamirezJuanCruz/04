@@ -1,0 +1,57 @@
+body {
+    background-color: gray
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: crimson;
+    font-style: oblique;
+    font-size: 350%;
+
+}
+
+p {
+
+    text-align: center;
+    font-weight: 900;
+    color: crimson;
+    font-style: italic;
+    font-size: 150%;
+}
+
+#opciones {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+    text-align: center;
+}
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #ffffff;
+    border: 2px solid rgb(155, 4, 4);
+    padding: 7px;
+    /* margen interior */
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(143, 9, 31);
+    color: #ffffff;
+}
